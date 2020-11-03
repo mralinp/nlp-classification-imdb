@@ -6,7 +6,7 @@ The goal of this project is getting familiar with 'classification', by solving a
 We have collected 3 kindes of datasets, testing, training and a validation dataset. we wanted you to first, build a feature vector of the written sentences and then train your classificator with the given datasets and then use your trained classificator to label the validation dataset sentences.
 
 ### Datasets
-The dataset we are using is, IMDB dataset (sentiment analysis) in CSV format that you can download it from here: [kaggle.com](kaggle.com/columbine/imdb-dataset-sentiment-analysis-in-csv-format)
+The dataset we are using is, IMDB dataset (sentiment analysis) in CSV format that you can download it from here: [kaggle.com](https://kaggle.com/columbine/imdb-dataset-sentiment-analysis-in-csv-format)
 
 
 
