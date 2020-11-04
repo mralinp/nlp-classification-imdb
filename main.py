@@ -1,7 +1,6 @@
 #! /usr/bin/python3
 
 import pandas as pd
-import numpy as np
 import re
 
 PATH = "./data-sets/Train.csv"
@@ -11,12 +10,7 @@ def cleanhtml(raw_html):
     cleantext = re.sub(cleanr, '', raw_html)
     return cleantext
 
-if __name__ == '__main__':
-    db = pd.read_csv(PATH)
-    
-    comments = [comment for comment in db["text"]]
-    labels = [lable for lable in db["label"]]
-    print (labels[0])
-    print (comments[16])
-    print ("---------------------------------")
-    print(cleanhtml(comments[16]))
+ds = pd.read_csv(PATH)
+text = ds["text"][17]
+
+print (cleanhtml(text))
