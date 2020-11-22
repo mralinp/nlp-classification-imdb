@@ -1,16 +1,21 @@
 #! /usr/bin/python3
 
 import pandas as pd
+
+db = {}
+db["trainDataset"] = pd.read_csv("./data-sets/Train.csv")
+db["testDataset"] = pd.read_csv("./data-sets/Test.csv")
+db["validDataset"] = pd.read_csv("./data-sets/Valid.csv")
+
 import re
+import string
 
-PATH = "./data-sets/Train.csv"
+def cleanHtmlTags(text):
+    mask = re.compile("<.*?>")
+    text = re.sub(mask, "", text)
+    return text
 
-def cleanhtml(raw_html):
-    cleanr = re.compile('<.*?>|&([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});')
-    cleantext = re.sub(cleanr, '', raw_html)
-    return cleantext
-
-ds = pd.read_csv(PATH)
-text = ds["text"][17]
-
-print (cleanhtml(text))
+for dataset in db.values():
+    dataset.
+    for example in dataset:
+        print (type(example))
