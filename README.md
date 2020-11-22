@@ -28,7 +28,7 @@ There are several methods to obtain a feature vector from text data as follows:
 ### Train the classifier
 We train our classifier using feature vectors we just created during the previous steps for the **Training set** and the **Validation set**.
 
-Using two classifiers **Bayes classifier** and **SVM classifier**, we want to solve this problem and then measure and compare their performance.
+Using two classifiers **Bayes classifier** and **SVM classifier**, we attempet to solve this problem and then measure and compare their performance.
 
 ### Test
 
