@@ -34,5 +34,5 @@ Using two classifiers **Bayes classifier** and **SVM classifier**, we attempet t
 
 After the training process, performances under **Test data** will be computed and the observation will be represented as some analysis.
 
-## final words
+## Final words
 I hope this could help some people who want to see a simple AI university project and need some general knowledge about this concept.
