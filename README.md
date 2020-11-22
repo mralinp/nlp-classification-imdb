@@ -20,10 +20,10 @@ After preproccessing step, we have to obtain feature vectors from our cleaned da
 
 There are several method to obtain a feature vector from a text data as follows:
 
-Bag of words
-BERT Embedding
-TF-IDF
-Word2Vec
+* Bag of words
+* BERT Embedding
+* TF-IDF
+* Word2Vec
 
 ## Train the classifier
 We train our classifier using feature vectors we just created during berevious steps for the **Training set** and the **Validation set**.
