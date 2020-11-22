@@ -15,7 +15,7 @@ The first step to solve the problem is data **preprocessing**. At this step, dat
 
 Be aware, commonly some data sets contain **HTML tags** and they are consistent with the data delivered by IMDB website. we will delete them first and then go throw.
 
-## Feature mining
+### Feature mining
 After the preprocessing step, we have to obtain feature vectors from our cleaned data to train our model, remember that our model is working with mathematical models, not literal sentences.
 
 There are several methods to obtain a feature vector from text data as follows:
@@ -25,14 +25,14 @@ There are several methods to obtain a feature vector from text data as follows:
 * TF-IDF
 * Word2Vec
 
-## Train the classifier
+### Train the classifier
 We train our classifier using feature vectors we just created during the previous steps for the **Training set** and the **Validation set**.
 
 Using two classifiers **Bayes classifier** and **SVM classifier**, we want to solve this problem and then measure and compare their performance.
 
-## Test
+### Test
 
 After the training process, performances under **Test data** will be computed and the observation will be represented as some analysis.
 
-### final words
+## final words
 I hope this could help some people who want to see a simple AI university project and need some general knowledge about this concept.
