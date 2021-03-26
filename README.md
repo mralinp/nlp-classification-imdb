@@ -1,7 +1,7 @@
 # nlp-classification-imdb
 
 ## Intro
-The goal of this project is getting familiar with 'classification', by solving a natural language processing problem. Here we have a dataset in which any user has been written his/her opinion about a movie. The sentences that users have written a positive or negative meaning that we can say whether they like the movie or not. each sentence has been read by a human and he/she labeled the data with 0 and 1 which means positive or negative opinion.
+The goal of this project is getting familiar with *classification*, by solving a natural language processing problem. Here we have a dataset in which any user has been written his/her opinion about a movie. The sentences that users have written a positive or negative meaning that we can say whether they like the movie or not. each sentence has been read by a human and he/she labeled the data with 0 and 1 which means positive or negative opinion.
 
 We have collected 3 kinds of datasets, testing, training, and a validation dataset. we wanted you to first, build a feature vector of the written sentences and then train your classification with the given datasets and then use your trained classifier to label the validation dataset sentences.
 
